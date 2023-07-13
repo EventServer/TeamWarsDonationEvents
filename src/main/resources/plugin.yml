@@ -1,0 +1,6 @@
+name: TeamWarsDonationEvents
+version: '${version}'
+main: tw.teamwarsdonationevents.TeamWarsDonationEvents
+api-version: 1.19
+depend:
+  - DonationEvents

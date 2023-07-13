@@ -1,0 +1,201 @@
+notify-prefix: "[D-A]"
+events:
+  add-5-min:
+    sound: ENTITY_PLAYER_LEVELUP
+    price:
+      RUB: 80.0
+      USD: 1.1
+      EUR: 0.95
+    chat-notify:
+      - ""
+      - "%customer% приказал развиваться дольше на 5 минут!"
+      - "%text%"
+      - ""
+    text-aliases: [ ]
+
+  smoup_wither:
+    sound: ENTITY_WITHER_SPAWN
+    price:
+      RUB: 189.0
+      USD: 2.1
+      EUR: 1.9
+    chat-notify:
+      - ""
+      - "%customer% призвал смоупа-визера на границе между командами!"
+      - "%text%"
+      - ""
+    text-aliases: [ ]
+
+  air-diamonds:
+    title:
+      title: "Взгляни вверх"
+      sub: "В небе сокровища!"
+    sound: ENTITY_PLAYER_LEVELUP
+    price:
+      RUB: 149.0
+      USD: 1.64
+      EUR: 1.49
+    chat-notify:
+      - ""
+      - "%customer% устроил шахту наоборот"
+      - "%text%"
+      - ""
+    text-aliases: [ ]
+
+  diamonds:
+    title:
+      title: "Подарочек"
+      sub: "Тебе подарили алмазик"
+    sound: ENTITY_PLAYER_LEVELUP
+    price:
+      RUB: 55.0
+      USD: 0.61
+      EUR: 0.55
+    chat-notify:
+      - ""
+      - "%customer% подарил всем по алмазику"
+      - "%text%"
+      - ""
+    text-aliases: [ ]
+
+  remove-5-min:
+    sound: ENTITY_PLAYER_LEVELUP
+    price:
+      RUB: 79.0
+      USD: 1.0
+      EUR: 0.8
+    chat-notify:
+      - ""
+      - "%customer% приказал развиваться меньше на 5 минут!"
+      - "%text%"
+      - ""
+    text-aliases: [ ]
+
+  additional:
+    sound: BLOCK_END_PORTAL_SPAWN
+    price:
+      RUB: 59.0
+      USD: 0.7
+      EUR: 0.6
+    chat-notify:
+      - "%customer% запустил донабор в случайную команду..."
+    text-aliases: [ ]
+  day:
+    price:
+      RUB: 16.0
+      USD: 0.199
+      EUR: 0.22
+    chat-notify:
+      - "%customer% сделал день"
+      - "%text%"
+    text-aliases: [ ]
+
+  jump-all:
+    price:
+      RUB: 39.0
+      USD: 0.5
+      EUR: 0.4
+    chat-notify:
+      - "%customer% организовал батут"
+      - "%text%"
+    text-aliases: []
+
+  fire:
+    title:
+      title: "ПОЖАР"
+      sub: "Всё в огне!"
+    price:
+      RUB: 85.0
+      USD: 0.94
+      EUR: 0.85
+    chat-notify:
+      - "Огонь %customer% охватил весь мир!"
+      - "%text%"
+    text-aliases: [ ]
+
+  dirt-rain:
+    title:
+      title: "Говнодождик"
+      sub: ""
+    price:
+      RUB: 34
+      USD: 0.37
+      EUR: 0.34
+    chat-notify:
+      - "%customer% устроил дождь грязи!"
+      - "%text%"
+    text-aliases: [ ]
+
+  night:
+    price:
+      RUB: 17.0
+      USD: 0.10
+      EUR: 0.21
+    chat-notify:
+      - "%customer% сделал ночь"
+      - "%text%"
+    text-aliases: [ ]
+
+  tnt-rain:
+    title:
+      title: "Дождь из ТНТ"
+      sub: "СПАСАЙСЯ КТО МОЖЕТ"
+    sound: ENTITY_TNT_PRIMED
+    price:
+      RUB: 500.0
+      USD: 6
+      EUR: 5
+    chat-notify:
+      - ""
+      - "%customer% вызвал дождь из TNT"
+      - "%text%"
+      - ""
+    text-aliases: [ ]
+
+  kill-all:
+    title:
+      title: "П#ЗД#Ц"
+      sub: "Давай по новой, Миша..."
+    sound: ENTITY_ENDER_DRAGON_HURT
+    price:
+      RUB: 5000.0
+      USD: 56.0
+      EUR: 50.0
+    chat-notify:
+      - ""
+      - "ТАНОС %customer% одним щелчком уничтожил всех"
+      - "%text%"
+      - ""
+    text-aliases: [ ]
+
+  heal-all:
+    title:
+      title: "ИСЦЕЛЕНИЕ"
+      sub: "Все были исцелены"
+    sound: ENTITY_PLAYER_LEVELUP
+    price:
+      RUB: 19.0
+      USD: 0.2
+      EUR: 0.19
+    chat-notify:
+      - ""
+      - "%customer% приказал всем жить!"
+      - "%text%"
+      - ""
+    text-aliases: []
+
+  feed-all:
+    title:
+      title: "ОБЕД"
+      sub: "Все были накормлены"
+    sound: ENTITY_PLAYER_LEVELUP
+    price:
+      RUB: 18.0
+      USD: 0.18
+      EUR: 0.17
+    chat-notify:
+      - ""
+      - "%customer% приказал всем есть!"
+      - "%text%"
+      - ""
+    text-aliases: [ ]
